@@ -7,6 +7,10 @@ public class player {
     int age = 0;
     double weight = 0;
     String height = "";
-    double money = 0;
-    // TODO inventory
+    int luck = 1;
+    int intel = 1; // intelligence
+    int charisma = 1;
+    public String[] inv = new String[10]; //inventory
+
+    // TODO other stats
 }
